@@ -8,6 +8,6 @@ RUN pip install -r requirements.txt
 
 EXPOSE 5000
 
-ENV OPENAI_API_KEY=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
+ENV OPENAI_API_KEY
 
 CMD ["python3", "python-chatgpt.py"]
